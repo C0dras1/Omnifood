@@ -223,6 +223,7 @@ header {
   -o-transform: translate(-50%, -50%);
 }
 
+
 .logo {
   height: 100px;
   width: auto;
@@ -230,6 +231,15 @@ header {
   margin-top: 20px;
 }
 
+.logo-black {
+  display: none;
+  height: 60px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+  
+}
+/* main navi*/
 .main-nav {
   float: right;
   list-style: none;
@@ -260,6 +270,28 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e66e22;
 }
+
+/* sticky navi */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 2px rgb(236, 236, 236);
+  z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 20px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 16px 0;
+  color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 
 /*------------------------------------*/
 /* MEALS */
@@ -499,10 +531,10 @@ textarea {
   padding: 7px;
   border-radius: 3px;
   border: 1px solid #ccc;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 textarea {
