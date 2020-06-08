@@ -138,6 +138,10 @@ a:active {
   color: #555;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.2s, color 0.2s;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  -moz-transition: border-bottom 0.2s, color 0.2s;
+  -ms-transition: border-bottom 0.2s, color 0.2s;
+  -o-transition: border-bottom 0.2s, color 0.2s;
 }
 
 /* -------------------------- */
@@ -152,6 +156,14 @@ input[type=submit] {
   text-decoration: none;
   border-radius: 200px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
@@ -205,6 +217,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -234,6 +250,10 @@ header {
   font-size: 90%;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
+  -webkit-transition: border-bottom 0.2s;
+  -moz-transition: border-bottom 0.2s;
+  -ms-transition: border-bottom 0.2s;
+  -o-transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
@@ -273,6 +293,10 @@ header {
   height: auto;
   transform: scale(1.03);
   transition: transform 0.3s, opacity 0.3s;
+  -webkit-transition: transform 0.3s, opacity 0.3s;
+  -moz-transition: transform 0.3s, opacity 0.3s;
+  -ms-transition: transform 0.3s, opacity 0.3s;
+  -o-transition: transform 0.3s, opacity 0.3s;
 }
 
 .meal-photo img:hover {
@@ -321,6 +345,10 @@ header {
   float: left;
   font-size: 150%;
   margin-right: 25px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .btn-app:link,
@@ -387,6 +415,10 @@ cite img {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /*------------------------------------*/
@@ -403,6 +435,10 @@ cite img {
   width: 90%;
   margin-left: 5%;
   box-shadow: 2px 3px 3px #e4e4e4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .plan-box div {
@@ -463,6 +499,10 @@ textarea {
   padding: 7px;
   border-radius: 3px;
   border: 1px solid #ccc;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 
 textarea {
@@ -515,6 +555,10 @@ footer {
   border: 0;
   color: #888;
   transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
@@ -534,6 +578,10 @@ footer p {
 .whatsapp,
 .instagram {
   transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
 }
 
  .facebook:hover {
