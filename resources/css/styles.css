@@ -75,6 +75,7 @@ h2 {
 h3 {
   font-size: 110%;
   margin-bottom: 25px;
+  font-weight: 400;
 
 }
 
@@ -107,8 +108,21 @@ h2:after {
   font-size: 250%;
   display: block;
   color: #e66e22;
-  margin-bottom: 10px; 
+  margin-bottom: 50px;
+  padding-left: 90px;
 }
+
+.col.span-1-of-4.box h3 {
+  text-align: center;
+  font-size: 110%;
+}
+
+.col.span-1-of-4.box p {
+  text-align: left;
+  font-size: 85%;
+  padding: 0 1px;
+}
+
 
 .icon-small {
   display: inline-block;
@@ -125,6 +139,7 @@ h2:after {
 /* -------------------------- */
 /* ---------LINKS----------*/
 /* -------------------------- */
+
 a:link,
 a:visited {
   color: #e66e22;
@@ -151,8 +166,8 @@ a:active {
 .btn:visited,
 input[type=submit] {
   display: inline-block;
-  padding: 10px 30px;
-  font-weight: 300;
+  padding: 15px 32px;
+  font-weight: 400;
   text-decoration: none;
   border-radius: 200px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -172,7 +187,7 @@ input[type=submit] {
   background-color: #e66e22;
   border: 1px solid #e66e22;
   color: #fff;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .btn-ghost:link,
@@ -253,7 +268,7 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-  padding: 5px 0;
+  padding: 16px 0;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
