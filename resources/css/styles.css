@@ -631,3 +631,22 @@ footer p {
 .instagram:hover {
   color: #c13584;
 }
+
+
+/*------------------------------------*/
+/* ANIMATIONS */
+/*------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+  opacity: 0;
+}
+
+.js--wp-1.animate__animated.animate__fadeIn,
+.js--wp-2.animate__animated.animate__flipInX,
+.js--wp-3.animate__animated.animate__fadeIn {
+  opacity: 1;
+} 
+
+
